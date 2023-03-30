@@ -1,0 +1,153 @@
+@font-face {
+  font-family: 'optimist_font';
+  src: url(res/optimist_font.woff2);
+}
+
+body {
+  margin: 0;
+  font-family: optimist_font;
+}
+  
+.navigation {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.leftside {
+    float: left;
+}
+
+.logo {
+  width: 130px;
+  height: auto;
+  padding: 10px;
+}
+
+.navigation a {
+  float: left;
+  color: #5f71bd;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigation a.signin {
+  font-weight: bolder;
+}
+
+.rightside {
+  float: right;
+  display: flex;
+}
+
+.rightside a.signin {
+  float: right;
+}
+
+.quickcheck {
+  height: 400px;
+  width: auto;
+  background-image: url(res/quickcheck-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+
+.quickcheck p.qctxt {
+  padding-inline: 23px;
+  font-size: 45px;
+  color: #ffffff;
+  text-align: center;
+  max-width: 1100px;
+}
+
+.buttoncontainer {
+  align-self: center;
+}
+
+.button {
+  background-color: #39863c;
+  border: none;
+  color: white;
+  padding: 0px 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 20px;
+  }
+.creditoffers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+
+.features {
+  display: flex;
+  flex-flow: row;
+}
+
+.textoffers {
+  padding: 20px 100px;
+  max-width: 550px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.categoryhandle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding: 5px 20px;
+  width: 250px;
+}
+
+.creditoffers img{
+  width: 40px;
+  height: auto;
+  padding: 5px;
+}
+
+.creditoffers a{
+  text-decoration: none;
+  color: #516fc2;
+  padding: 15px;
+}
+
+.mid {
+  max-width: 900px;
+}
+
+@media screen and (max-width: 1500px) {
+    .navigation {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .centertxt {
+        display: none;
+    }
+    .others {
+        display: none;
+    }
+    .features {
+      flex-flow: column;
+    }
+}
+
+@media screen and (max-width : 790px) {
+  .quickcheck{
+    height: 250px;
+  }
+
+  .quickcheck p.qctxt {
+    font-size: 25px;
+  }
+}

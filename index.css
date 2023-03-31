@@ -152,4 +152,14 @@ body {
   .quickcheck p.qctxt {
     font-size: 25px;
   }
+
+  .textoffers {
+    padding: 20px 20px;
+  }
+}
+
+@media screen and (max-width : 393px) {
+  .quickcheck p.qctxt {
+    font-size: 20px;
+  }
 }

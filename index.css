@@ -41,10 +41,14 @@ body {
 .rightside {
   float: right;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
-.rightside a.signin {
-  float: right;
+.rightside img {
+  height: 25px;
+  padding-right: 25px;
 }
 
 .quickcheck {
@@ -126,6 +130,23 @@ body {
   max-width: 900px;
 }
 
+.footerscheme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding : 0px 20px;
+  background-color: #e2e2e2;
+}
+
+.disclaimer {
+  text-align: center;
+}
+
+.coder {
+  text-align: center;
+}
+
 @media screen and (max-width: 1500px) {
     .navigation {
         padding: 0px;
@@ -142,6 +163,13 @@ body {
     .features {
       flex-flow: column;
     }
+
+}
+
+@media screen and (min-width : 1000px) {
+  .menubtn {
+    display: none;
+  }
 }
 
 @media screen and (max-width : 790px) {

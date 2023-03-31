@@ -146,7 +146,7 @@ body {
 
 @media screen and (max-width : 790px) {
   .quickcheck{
-    height: 290px;
+    height: 300px;
   }
 
   .quickcheck p.qctxt {

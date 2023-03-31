@@ -15,6 +15,8 @@ body {
 
 .leftside {
     float: left;
+    padding-top: 5px;
+    padding-left: 10px;
 }
 
 .logo {

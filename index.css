@@ -48,7 +48,7 @@ body {
 }
 
 .quickcheck {
-  height: 400px;
+  height: 450px;
   width: auto;
   background-image: url(res/quickcheck-banner.jpg);
   background-repeat: no-repeat;
@@ -146,7 +146,7 @@ body {
 
 @media screen and (max-width : 790px) {
   .quickcheck{
-    height: 250px;
+    height: 290px;
   }
 
   .quickcheck p.qctxt {
